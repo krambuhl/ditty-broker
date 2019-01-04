@@ -4,8 +4,9 @@ Provides an API for querying ngwenya data.
 
 ## Goals
 
+Get personnel for a song/release:
+
 ```js
-// get personnel for a song/release
 const likeAStonePersonnel = await herodotus.getPersonnel({
   title: 'Like a Stone',
   artist: 'Audioslave'
@@ -37,7 +38,11 @@ const likeAStonePersonnel = await herodotus.getPersonnel({
 }]
 */
 
-// get songs for a specific personnel
+```
+
+Get songs for a specific person:
+
+```js
 const chrisCornellSongs = await herodotus.getSongs({
   id: '12349532'
   name: 'Chris Cornell'
