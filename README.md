@@ -1,4 +1,3 @@
 # Ditty Broker
 
-Goal: Connect music by personnel, and create playlists
-
+> Explore music by personnel, and create playlists interactively
